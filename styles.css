@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    color: orange;
+    /* Orange */
+}
+
+header {
+    animation: fadeIn 1s ease-in;
+}
+
+.navbar {
+    transition: background-color 0.3s;
+}
+
+.navbar {
+    background-color: #000000;
+    height: 30px;
+    margin-top: 44px;
+    /* Darker black on hover */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+
+    margin-right: 20px;
+}
+
+
+.navbar-brand {
+    color: orange;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+#carousel-item {
+    margin: 0px 0px 0px 0px;
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orange;
+    /* Orange on hover */
+}
+
+.btn-orange {
+    background-color: orange;
+    /* Orange */
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: orange;
+    /* Darker orange */
+    transform: scale(1.05);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 260px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    /* Black */
+}
+
+#fot p {
+    margin-left: 430px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-item video {
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.carousel-item img {
+    height: 500px;
+}
+
+h5 {
+    margin-top: 50px;
+}
+
+.space-image img {
+    width: 100vw;
+    height: 70vh;
+}
+
+.navbar-brand {
+    color: orange;
+}
+
+#headingofpage {
+    color: orange;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#navigation {
+    margin-left: 400px;
+    list-style: none;
+}
+
+
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: end;
+    background: black;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 442px;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.nav-links li a {
+    color: orange;
+}
+
+
+.nav-links li a {
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.nav-links li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: orange;
+
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.nav-links li a:hover:before {
+    width: 100%;
+}
+
+.nav-links li.center a:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links li.upward a:before {
+    width: 100%;
+    bottom: -5px;
+    opacity: 0;
+}
+
+.nav-links li.upward a:hover:before {
+    bottom: 0px;
+    opacity: 1;
+}
+
+.nav-links li.forward a:before {
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+
+.nav-links li.forward a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#missiontext p {
+    width: 70%;
+    margin-left: 250px;
+    text-wrap: pretty;
+}
+
+#staticsdata h2 {
+    margin-bottom: 10px;
+}
+
+.text-center {
+    margin-bottom: 40px;
+}
+
+.latest-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#newCard {
+    border: 2px solid orange;
+    height: 470px;
+}
+
+.card-body a:hover {
+    opacity: 0.8;
+}
+
+
+#gapping {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------contactform----------- */
+
+.form-group label {
+    color: #6f6f6f;
+}

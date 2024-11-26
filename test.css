@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    /* Background color */
+    color: white;
+    /* Default text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.roadmap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    /* Main heading color */
+}
+
+.stream {
+    margin-bottom: 20px;
+}
+
+.stream h2 {
+    color: orange;
+    /* Subheading color */
+    border-bottom: 2px solid orange;
+    /* Underline for subheading */
+    padding-bottom: 10px;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    gap: 20px;
+}
+
+.job-card {
+    background: #333;
+    /* Card background color */
+    width: 400px;
+    /* Fixed width */
+    height: 700px;
+    /* Fixed height */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    /* Orange shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: space-between;
+    /* Space out elements */
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    /* Lift effect on hover */
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+    /* Stronger shadow on hover */
+}
+
+.job-card h4 {
+    margin-top: 0;
+    color: orange;
+    /* Job title color */
+}
+
+.job-card p {
+    margin-bottom: 10px;
+    color: white;
+    /* Text color */
+}
+
+.job-card strong {
+    font-weight: bold;
+}
+
+/* Additional styles for layout */
+.stream {
+    display: flex;
+    justify-content: center;
+    /* Center the stream cards */
+}
